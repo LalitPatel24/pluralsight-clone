@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(84, 83, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(15, 14, 14);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.right-section {
+    width: 60%;
+    height: 100vh;
+    background-image: url(./login-bg.jpg );
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+.right-section h1{
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.right-section button {
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.form-section image{
+    width: 300px;
+    
+}
+
+.form-section{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.form-section label{
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+}
+.form-section input{
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.form-section button{
+    width: 350px;
+    height: 35px;
+    background-color: rgb(42, 42, 235);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.form-section a{
+
+    width: 350px;
+    height: 35px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-section p{
+    color: white;
+    
+}
+.form-section hr{
+    width: 350px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.form-section span hr{
+    width: 1px;
+    height: 20px;
+}
+.form-section span a{
+    color:  rgb(42, 42, 235);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form-section span{
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    justify-content: space-around;
+}
+#btn {
+    background-color: rgb(75, 74, 74);
+}
